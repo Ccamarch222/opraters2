@@ -135,7 +135,7 @@ console.log(!(n >= 5 && n <= 8));
 // if(condition) {}
 // else{}
 let condition = "pakistan";
-let age = 25;
+let age1 = 25;
 // Pakistan == Pakistan // true
 if (condition == "pakistam") {
     console.log("pakistani");
@@ -143,7 +143,7 @@ if (condition == "pakistam") {
     console.log("Not pakistani");
 }
 // if else if
-if (age <= 12) {
+if (age1 <= 12) {
     console.log("Child");
 } else if (age >= 13 && age <=19) {
     console.log("teenager");
@@ -152,7 +152,7 @@ if (age <= 12) {
 }
 // odd and even 
 n = 6 
-let result = n%2 
+let results = n%2 
 if (result == 0) {
     console.log("Even");
 } else {
