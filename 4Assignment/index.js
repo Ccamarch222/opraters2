@@ -16,11 +16,10 @@ console.log("qoutient: ", num1 / num2);
 console.log("after swaping , num1 is: ", num1);
 console.log("after swaping , num2 is: ", num2);
 // Q _ 4:This applies to TypeScript. Create a string variable and try changing its type.
-let values;
-values = "maryam";
-let values2;
-values2 = 23;
-console.log("Type:", typeof values, ", Value:", values, ", Type:", typeof values2, ", Value:", values2);
+let values = "maryam";
+console.log("Type:", typeof values, ", Value:", values);
+values = 23;
+console.log("after update variable Type:", typeof values, ",value:", values);
 //Q _ 5:Use the modulus operator to find the remainder of two numbers.
 let reminder = num1 % num2;
 console.log("the reminder of ", num1, "divided by", num2, "is", reminder);
@@ -117,7 +116,7 @@ else {
 //We first assign the temperature in Fahrenheit to the fahrenheit variable.
 //Then, we use the formula to convert Fahrenheit to Celsius.
 //Finally, we print the converted temperature in Celsius. The toFixed(2) method is used to round the result to two decimal places.
-let fahrenheit = 21;
+let fahrenheit = 78;
 let celsius = (fahrenheit - 32) * 5 / 9;
 console.log(fahrenheit + "degree fahrenheit is equal to" + celsius.toFixed(2) + "degree celsius.");
 // Q _15:Positive, Negative, or Zero

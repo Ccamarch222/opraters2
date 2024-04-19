@@ -18,21 +18,17 @@ console.log("after swaping , num1 is: ", num1);
 console.log("after swaping , num2 is: ", num2);
 
 // Q _ 4:This applies to TypeScript. Create a string variable and try changing its type.
-let values: any;
-values = "maryam";
-let values2: any;
-values2 = 23;
+let values:any = "maryam";
 
 console.log(
   "Type:",
   typeof values,
   ", Value:",
-  values,
-  ", Type:",
-  typeof values2,
-  ", Value:",
-  values2
-);
+  values,);
+
+  values =23;
+  console.log("after update variable Type:",typeof values,",value:",values,);
+  
 
 //Q _ 5:Use the modulus operator to find the remainder of two numbers.
 let reminder = num1 % num2;
